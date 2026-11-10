@@ -1188,6 +1188,11 @@ hash = "24a0bf7f4ab44a738d55f5badc993eb8dd5f815d57975c509c3dbf4ddd6cb06f"
 metafile = true
 
 [[files]]
+file = "resourcepacks/unity-ic2-1-7-10-backport.pw.toml"
+hash = "94bd3f39265ec01bdd31658d7641de8fbe650016244cf3195952ad8f34509d5b"
+metafile = true
+
+[[files]]
 file = "scripts/computercraft.zs"
 hash = "e7eb295096f2d1922ee44eaa67c75e68d6c44bc36b3b5ba09f48fe5915b51c88"
 

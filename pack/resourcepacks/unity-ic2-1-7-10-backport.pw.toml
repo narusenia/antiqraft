@@ -1,0 +1,13 @@
+name = "Unity IC2 1.7.10 backport"
+filename = "Unity IC2 1.7.10 backport v1.1a.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "b7a70a371dc1d1c6168789adb3562cf2f5afadd8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2377036
+project-id = 258586
