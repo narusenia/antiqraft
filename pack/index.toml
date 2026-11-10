@@ -1182,3 +1182,11 @@ metafile = true
 file = "resourcepacks/modernity.pw.toml"
 hash = "24a0bf7f4ab44a738d55f5badc993eb8dd5f815d57975c509c3dbf4ddd6cb06f"
 metafile = true
+
+[[files]]
+file = "scripts/computercraft.zs"
+hash = "3e5c98ffee2fe5c54c013b128cf5526d0cb71c3560e4d7bf2b5fa48e8fa3875b"
+
+[[files]]
+file = "scripts/removals.zs"
+hash = "799acc3b5b5e95a92d73da369260988edde4b3a6dd62f75c1e5a4ad718bd03c9"
