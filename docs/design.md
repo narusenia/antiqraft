@@ -27,6 +27,10 @@ Minecraft 1.7.10 / Forge 10.13.4.1614 の Modpack。工業・魔術・冒険の 
 - Thaumcraft 4 が主役、2 つ目に Blood Magic
 - アドオン：Electro-Magic Tools、Thaumic Energistics、Thaumic Tinkerer（Kami 系は外す）、Thaumic Horizons、Automagy、Forbidden Magic、Witching Gadgets、Thaumic Additions: Reconstructed、Forgotten Relics
 - QoL：Thaumcraft NEI Plugin、Thaumcraft 4 Tweaks
+- Botania は Forgotten Relics の前提 Mod として入れる。マナの仕組みは使わせない
+  - 残す：神秘の花の自然生成、装飾ブロック（マナが要るレシピは GT の機械に置き換える）
+  - 消す：Lexica Botania、マナを使う道具・レリック、Gaia Guardian
+  - Forgotten Relics のうちマナを使うレリックは、宝箱のドロップから外す
 
 ## 冒険
 
