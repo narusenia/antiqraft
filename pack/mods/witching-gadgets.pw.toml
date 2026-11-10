@@ -1,0 +1,8 @@
+name = "Witching Gadgets"
+filename = "WitchingGadgets-1.9.0-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.9.0-GTNH/WitchingGadgets-1.9.0-GTNH.jar"
+hash-format = "sha256"
+hash = "7bbd1b1b2b6852aeabfd96d95029b05c653292ab34014a569855eead1da285f2"

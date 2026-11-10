@@ -11,6 +11,11 @@ hash = "f6495f0f728e07d0945ec5ef3f4e99da925baa47ed4c36daeb464b5980ebb371"
 metafile = true
 
 [[files]]
+file = "mods/automagy.pw.toml"
+hash = "d2ef0245eac12bb25282309c4f9f594a8898d0535cc9d17315a19de5de23d197"
+metafile = true
+
+[[files]]
 file = "mods/baubles-expanded.pw.toml"
 hash = "e097026cd04fd4c3f690d8eb2738cb91d43b9a9864a852bb24c314f13afddb57"
 metafile = true
@@ -18,6 +23,16 @@ metafile = true
 [[files]]
 file = "mods/biomes-o-plenty.pw.toml"
 hash = "ad0d8412898c36d5dea25e42733516a1800c97100b70c6a7c638e5246a6e118a"
+metafile = true
+
+[[files]]
+file = "mods/blood-magic.pw.toml"
+hash = "f9f0e73b275d9385b171bc9b2ba6a5359945d2b4436c020ac077fe140d38b65b"
+metafile = true
+
+[[files]]
+file = "mods/botania.pw.toml"
+hash = "671de8e68e89cefde9a64d2be0bccd68623236101579cc5d1be0bde9b2b7755f"
 metafile = true
 
 [[files]]
@@ -46,6 +61,11 @@ hash = "244253dbbab3f8ed59c503ea1c753885a6ae4c9b780510755c963500c5696636"
 metafile = true
 
 [[files]]
+file = "mods/electro-magic-tools.pw.toml"
+hash = "eddd14926de587a1cf5d6c56013417df07e7e002a1252b1fc5ec77b38cc4c79a"
+metafile = true
+
+[[files]]
 file = "mods/endercore.pw.toml"
 hash = "23b3745f0e11ff20c678ae586c8df7e2a56cb2bd23958989a8291d8ec3d9c452"
 metafile = true
@@ -53,6 +73,11 @@ metafile = true
 [[files]]
 file = "mods/enderio.pw.toml"
 hash = "e9bddba38a8eddff64932c40f60b40fe4ca74b55a2e09d9a4e8a57a5d59d3ee9"
+metafile = true
+
+[[files]]
+file = "mods/forbidden-magic.pw.toml"
+hash = "bd07aef9849ae37c8ab5cd9e080bb1c98496e27319b654745450a8c54df357c4"
 metafile = true
 
 [[files]]
@@ -68,6 +93,11 @@ metafile = true
 [[files]]
 file = "mods/forgerelocation.pw.toml"
 hash = "b94c6bce6c10e81778e22067ebaf60bcfd4293478e4b8b0b0ad5a89b168259dd"
+metafile = true
+
+[[files]]
+file = "mods/forgotten-relics.pw.toml"
+hash = "69fcb68808aa6472302007c67d33957cc2ca069b6ef5102556decb8b9662e399"
 metafile = true
 
 [[files]]
@@ -95,6 +125,11 @@ hash = "36eaa1e528a80689fe868f86c4333b7d267fb85c3d429696f0c3f9a6fb90b9b6"
 metafile = true
 
 [[files]]
+file = "mods/modularui.pw.toml"
+hash = "5b7f778d5469a945035cbf025077986ddfdd4fbb9d367b68c5b31f9b242e8b9e"
+metafile = true
+
+[[files]]
 file = "mods/mrtjpcore.pw.toml"
 hash = "7c6b2fa6ec0f83c1119ba543be7f9d9aea77e827f12e87b34875d0a0ad44c8db"
 metafile = true
@@ -110,6 +145,11 @@ hash = "edf34630b96e558a837a6a74de2a5593f87099b9eebc5d8a6a14988c669246b9"
 metafile = true
 
 [[files]]
+file = "mods/particlelib.pw.toml"
+hash = "b4e9a7ce744a35dbcdf8a17020a3d7a80e64646b92ee0de7617cfd83220275d5"
+metafile = true
+
+[[files]]
 file = "mods/projectred.pw.toml"
 hash = "aa8252ac297ff3c7245a6ed2f7eeac6ecc79946a9e56accc2b2c418e258ec237"
 metafile = true
@@ -120,13 +160,48 @@ hash = "6617a88f6c28b9d043c031f2e496da90d0e57bc3622eb4da1b471cedca1743a9"
 metafile = true
 
 [[files]]
+file = "mods/tc-nei-additions.pw.toml"
+hash = "3d670951f35d12623b2b07df6c8246d56514ca8788562f5b1ddd3861f6bf5867"
+metafile = true
+
+[[files]]
 file = "mods/thaumcraft-4-tweaks.pw.toml"
 hash = "c2d7eff5f3aeedb39a08afdce89abedebf23360102f991789f6331de12317c45"
 metafile = true
 
 [[files]]
+file = "mods/thaumcraft-nei-plugin.pw.toml"
+hash = "f753f59a399e3dc7e7d9c1884965b32f2ccf5cce394dd0918ac7e9ab1029e787"
+metafile = true
+
+[[files]]
 file = "mods/thaumcraft.pw.toml"
 hash = "f0b23db33db035ffb866e3f09a39dc7019a0de90fe32069bbc48df2ad9dc1a68"
+metafile = true
+
+[[files]]
+file = "mods/thaumic-additions.pw.toml"
+hash = "992effdd3bf4f9490f9bb56e8efc24cd313bf3b5f05b2e22424d8e42645a905f"
+metafile = true
+
+[[files]]
+file = "mods/thaumic-boots.pw.toml"
+hash = "02fc0012d2ce33e911f3fb2fb3f8080e1c68adb7e95111369b1f1646ca9be1ab"
+metafile = true
+
+[[files]]
+file = "mods/thaumic-energistics.pw.toml"
+hash = "d75b7d0affce1f890106d4e7657cd1d44e7ab0b070657a8ca063cd0f6abd054b"
+metafile = true
+
+[[files]]
+file = "mods/thaumic-horizons.pw.toml"
+hash = "d35b8c0b7ad3d73d9b3dfc63e3cd6c07589fd67229be51473a67bc2994e3d02d"
+metafile = true
+
+[[files]]
+file = "mods/thaumic-tinkerer.pw.toml"
+hash = "ccbd374c5ab290d8f4e74176a0645a659085270ed339f5d58518e5c8376fa598"
 metafile = true
 
 [[files]]
@@ -137,4 +212,9 @@ metafile = true
 [[files]]
 file = "mods/unimixins.pw.toml"
 hash = "1609ec425155f59a639b7224e96eefa3f0df2cfe63fe06903110397e0717a03f"
+metafile = true
+
+[[files]]
+file = "mods/witching-gadgets.pw.toml"
+hash = "4aa4c694dfb418c717fadc8b559b80cff7bc89684af9a1b971e9cf8f9bc978c1"
 metafile = true
