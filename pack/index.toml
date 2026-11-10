@@ -1202,5 +1202,25 @@ file = "scripts/computercraft.zs"
 hash = "e7eb295096f2d1922ee44eaa67c75e68d6c44bc36b3b5ba09f48fe5915b51c88"
 
 [[files]]
+file = "scripts/ironchests.zs"
+hash = "ff36049de66946dc608a7038f7d5bc36155282d17c56b4c5ee3f5ab73414a834"
+
+[[files]]
+file = "scripts/projectred.zs"
+hash = "300a2e7b09e8336532146a69fe54dcd8f4bb182798806e6984197113b3089aca"
+
+[[files]]
+file = "scripts/railcraft.zs"
+hash = "95158e1f763b70a86c191e4ff1bf97a782591f4bf36fa1e5d885414ca98dcaf1"
+
+[[files]]
 file = "scripts/removals.zs"
 hash = "b3856b9cafbfe9e4c912ff3c92351309f178df15671864725b968196d0c8f7fe"
+
+[[files]]
+file = "scripts/storagedrawers.zs"
+hash = "4984741ea61433f91b72636439107cba5f0b9eb8f6dd19ca9b89562c1381395a"
+
+[[files]]
+file = "scripts/thaumcraft.zs"
+hash = "7abd88d7c2912de43f32e27b295b0e958c5ab612a150851a784f3b0567151dd8"
