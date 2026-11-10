@@ -18,7 +18,7 @@ Minecraft 1.7.10 / Forge 10.13.4.1614 の Modpack。工業・魔術・冒険の 
 - Railcraft、BuildCraft、Applied Energistics 2、GraviSuite、Advanced Solar Panels、Forestry
 - EnderIO：導管・移動（Travel Anchor など）・Dark Steel 装備・小物だけ。SAG Mill と Alloy Smelter は外す。Dark Steel は GT4 の合金扱い
 - 入れない：Thermal Expansion、Mekanism
-- 電力：EU → RF の一方向だけ。発電の進行は IC2/GT4 に一本化する。変換はまず Fox Power Converter を試し、ダメなら fork で電圧帯ごとの変換機を作る
+- 電力：EU → RF の一方向だけ。発電の進行は IC2/GT4 に一本化する。変換は fork で電圧帯ごとの変換機を作る（Fox Power Converter は CurseForge からプロジェクトごと消えていた）
 - ComputerCraft は LV 帯（Turtle は重めのレシピ）、OpenComputers は MV〜EV 帯（部品の Tier 1/2/3 = MV/HV/EV 回路）
 - ProjectRed：Core、Transmission、Integration、Fabrication、Illumination は ON。Exploration は鉱石生成を止め、大理石・玄武岩だけ残す。Expansion は OFF。Electrotine は GT4 の機械で作れるようにする
 
