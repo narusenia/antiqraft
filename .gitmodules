@@ -1,0 +1,3 @@
+[submodule "gregtech4"]
+	path = gregtech4
+	url = git@github.com:narusenia/gregtech4-antiq-fork.git

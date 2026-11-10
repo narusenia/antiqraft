@@ -1,0 +1,4 @@
+[tools]
+java = "zulu-8.98.0.111"
+go = "1.25"
+"go:github.com/packwiz/packwiz" = "latest"
