@@ -232,6 +232,11 @@ hash = "d818e988a3ee5e85eb3db6da7fb548924ce253c20aac9bb359cc7acccfee2835"
 metafile = true
 
 [[files]]
+file = "mods/modtweaker.pw.toml"
+hash = "84b8fba083850f1b2a200589cb97d5c6e11aa4ffaf75a6b4f2d63c0540641b33"
+metafile = true
+
+[[files]]
 file = "mods/modularui.pw.toml"
 hash = "5b7f778d5469a945035cbf025077986ddfdd4fbb9d367b68c5b31f9b242e8b9e"
 metafile = true

@@ -1,0 +1,8 @@
+name = "ModTweaker"
+filename = "ModTweaker2-0.15.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/ModTweaker/releases/download/0.15.0/ModTweaker2-0.15.0.jar"
+hash-format = "sha256"
+hash = "9b3203adcd24459413921abb78e067d32c8c318e0bc3223f56c64fb54c5304df"
