@@ -52,10 +52,11 @@ for i, head in boreHeads {
 recipes.remove(<Railcraft:anvil>);
 recipes.addShaped(<Railcraft:anvil>, [
     [<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>],
-    [null, steel, null],
+    [<ore:craftingToolHardHammer>, steel, null],
     [steel, steel, steel]]);
 
-// Signal boxes: I C I / I x I with the iron as plates
+// Signal boxes: I C I / I x I with the iron as plates, screwed together
+val screwdriver = <ore:craftingToolScrewdriver>;
 val controllerCircuit = <Railcraft:part.circuit:0>;
 val receiverCircuit = <Railcraft:part.circuit:1>;
 val signalCircuit = <Railcraft:part.circuit:2>;
@@ -68,13 +69,44 @@ val boxCircuits = [
 val boxCores = [redstone, redstone, <minecraft:comparator>, redstone, redstone] as minetweaker.item.IIngredient[];
 for i, box in boxes {
     recipes.remove(box);
-    recipes.addShaped(box, [[iron, boxCircuits[i], iron], [iron, boxCores[i], iron]]);
+    recipes.addShaped(box, [[iron, boxCircuits[i], iron], [iron, boxCores[i], iron], [null, screwdriver, null]]);
 }
 
 val relay = <Railcraft:signal:13>;
 recipes.remove(relay);
-recipes.addShaped(relay, [[null, signalCircuit, null], [iron, signalCircuit, iron], [iron, redstone, iron]]);
+recipes.addShaped(relay, [[screwdriver, signalCircuit, null], [iron, signalCircuit, iron], [iron, redstone, iron]]);
 
 val interlock = <Railcraft:signal:0>;
 recipes.remove(interlock);
-recipes.addShaped(interlock, [[null, receiverCircuit, null], [iron, controllerCircuit, iron], [iron, redstone, iron]]);
+recipes.addShaped(interlock, [[screwdriver, receiverCircuit, null], [iron, controllerCircuit, iron], [iron, redstone, iron]]);
+
+// Tanks: Railcraft leaves wall/gauge/valve recipes to GTNH's core mod, so none exist here.
+// Same shapes as old Railcraft (8 per craft) with GT plates; walls are hammered.
+val hammer = <ore:craftingToolHardHammer>;
+val pane = <ore:paneGlass>;
+val bars = <minecraft:iron_bars>;
+val lever = <minecraft:lever>;
+val tankBlocks = [
+    <Railcraft:machine.beta:0>, <Railcraft:machine.beta:13>,
+    <Railcraft:machine.zeta:0>, <Railcraft:machine.zeta:3>, <Railcraft:machine.zeta:6>, <Railcraft:machine.zeta:9>, <Railcraft:machine.zeta:12>,
+    <Railcraft:machine.eta:0>, <Railcraft:machine.eta:3>, <Railcraft:machine.eta:6>
+] as minetweaker.item.IItemStack[];
+val tankPlates = [
+    iron, steel,
+    <ore:plateAluminium>, <ore:plateStainlessSteel>, <ore:plateTitanium>, <ore:plateTungstenSteel>, <ore:platePalladium>,
+    <ore:plateIridium>, <ore:plateOsmium>, <ore:plateNeutronium>
+] as minetweaker.item.IIngredient[];
+for i, wall in tankBlocks {
+    // wall, gauge and valve are consecutive metadata
+    val p = tankPlates[i];
+    val gauge = wall.definition.makeStack(wall.damage + 1);
+    val valve = wall.definition.makeStack(wall.damage + 2);
+    recipes.addShaped(wall * 8, [[p, p, hammer], [p, p, null]]);
+    recipes.addShaped(gauge * 8, [[pane, p, pane], [p, pane, p], [pane, p, pane]]);
+    recipes.addShaped(valve * 8, [[bars, p, bars], [p, lever, p], [bars, p, bars]]);
+}
+
+// Electric shunting wire also has no recipe without GTNH: copper rods sheathed in lead
+val lead = <ore:plateLead>;
+val copperRod = <ore:stickCopper>;
+recipes.addShaped(<Railcraft:machine.delta:0> * 8, [[lead, lead, lead], [copperRod, copperRod, copperRod], [lead, lead, lead]]);

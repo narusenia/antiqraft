@@ -1,8 +1,9 @@
 import mods.thaumcraft.Arcane;
 
 // Wand caps: nuggets -> GT rings, same shapes and vis cost as Thaumcraft. Void caps have no GT ring and stay.
+// Only the iron cap is a workbench recipe, so only it takes a hammer (arcane recipes keep no tools).
 recipes.remove(<Thaumcraft:WandCap:0>);
-recipes.addShaped(<Thaumcraft:WandCap:0>, [[<ore:ringIron>, <ore:ringIron>, <ore:ringIron>], [<ore:ringIron>, null, <ore:ringIron>]]);
+recipes.addShaped(<Thaumcraft:WandCap:0>, [[<ore:ringIron>, <ore:ringIron>, <ore:ringIron>], [<ore:ringIron>, <ore:craftingToolHardHammer>, <ore:ringIron>]]);
 
 Arcane.removeRecipe(<Thaumcraft:WandCap:1>);
 Arcane.addShaped("CAP_gold", <Thaumcraft:WandCap:1>, "ordo 3, ignis 3, aer 3",

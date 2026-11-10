@@ -42,6 +42,19 @@ cd gregtech4 && mise exec -- sh ./gradlew build       # GT4 fork のビルド
 - `mt recipes` の一覧はバニラ形式のレシピしか出さない（鉱石辞書レシピなどは出ない）ので、レシピの有無の確認には使わない
 - `Batch Remove 0 recipes` は `removeShaped` 系の別経路のログで、`recipes.remove(出力)` とは無関係
 - NBT 付きのバリエーションがあるアイテム（Turtle など）は `recipes.remove(item, true)` で素のものだけを消す
+- GT4 の工具は鉱石辞書名（`<ore:craftingToolHardHammer>` `craftingToolFile` `craftingToolWrench` `craftingToolScrewdriver` `craftingToolSaw` など）を普通の材料として置く。工具は自分で耐久を減らすので `.transformDamage()` などは付けない（二重に減る）
+- レシピの有無は `recipes.getRecipesFor(item).length` で確かめる。`.cache/server/scripts/zz_probe.zs` に `print("PROBE " ~ x.displayName ~ " " ~ recipes.getRecipesFor(x).length)` を書いて `tools/boot-test.sh` を回し、`logs/minetweaker.log` を `PROBE` で grep したら消す。配列は `as minetweaker.item.IItemStack[]` で型を付ける（map の反復は使えない）
+  - 0 件なら「作業台レシピがない」と言える。逆に 1 件以上でも当てにならない（削除済みの Mana Spreader に 16 件と返した）。作れるかの最終確認はクライアントの NEI で行う
+- GTNH 版の Mod には、レシピを GTNH の core mod に任せていて単体では作れないものがある（Railcraft のタンク、AE2 の Advanced Inscriber など）。Mod を足したら作れないアイテムがないか確かめる
+- GT4 の機械レシピは `mods.gregtechmod.recipe.RecipeMaps.getRecipeMap("ALLOY_SMELTING").factory().inputs(...).output(...).EUt(16).duration(200).buildAndRegister()` で足せる。入力の鉱石辞書が空だと `An empty stack array` で止まる
+
+## GT4 fork
+
+- ビルドした jar は `pack/mods/gregtechmod-v<版>.jar` に直接置く（古い jar は消して `packwiz refresh`）。版は `build.gradle` の `version`。`v417.58` のように数字だけにする（`VERSION` の int に埋め込まれるので英字を付けるとビルドが壊れる）
+- 素材は `Materials` enum。部品は ID（0〜999）と種類のビットから自動生成され、色は RGB で付くのでテクスチャは要らない。他 Mod がインゴットを持つ素材は `OrePrefixes` で `ingot.mNotGeneratedItems` に入れる（入れないと GT のインゴットが統一先になり、道具レシピの置き換えが効かない）
+- 鉱石辞書名の素材部分は enum 名と大文字小文字まで一致させる。Twilight Forest の金属は GT4 側の名前が違う（`IronWood` `SteelLeaf` `FieryBlood`）。`GT_ItemIterator` が TF のインゴットをその名前でも登録している
+- 道具・防具レシピの置き換えが効いたかは `.cache/server/config/GregTech/DynamicConfig.cfg` の `recipereplacements` に `<素材>.Pickaxe` などのキーが出るかで分かる
+- GT4 の機械レシピは `RecipeMaps.getRecipeMap("BLAST_FURNACE").findRecipe([...], [])` で probe できる
 
 ## 起動時に出るが無害なエラー
 
