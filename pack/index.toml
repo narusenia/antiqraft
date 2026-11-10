@@ -1,6 +1,30 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/BattleTowers.cfg"
+hash = "4202d83cdb434a7033551087481b941ab18c588dc0ea5e1d0a8f51bb54725a1f"
+
+[[files]]
+file = "config/ProjectRed.cfg"
+hash = "e3d69dba81075abd7601c1f6c13e80fcda57c9a6c67317eeba14acf2d4bcc058"
+
+[[files]]
+file = "config/TwilightForest.cfg"
+hash = "290ba988762b56eb524b2c679ac2ca2a6b35c29a56b5c94dd78c77deecbf0504"
+
+[[files]]
+file = "config/etfuturum/world.cfg"
+hash = "e97087bdb217ef3355a0db30513f946356d571306e7968c4740f2598b721b0d2"
+
+[[files]]
+file = "config/forestry/common.cfg"
+hash = "caea87c4ff9f18a048f83212ff625762aa0f76bd6d3a3252bffa2cf4032bdeb6"
+
+[[files]]
+file = "config/veinminer/general.cfg"
+hash = "5afe2edcd50d826bfb03159084111be5ed600159468d4453a1c7bcf8a39a222b"
+
+[[files]]
 file = "mods/Ruins-1.7.10.jar"
 hash = "fcaa7b8d3d18b9e14dc6238936099e96f442d9d83fba1f2e021e11b3e3299226"
 
@@ -1147,4 +1171,14 @@ metafile = true
 [[files]]
 file = "mods/witching-gadgets.pw.toml"
 hash = "4aa4c694dfb418c717fadc8b559b80cff7bc89684af9a1b971e9cf8f9bc978c1"
+metafile = true
+
+[[files]]
+file = "resourcepacks/modernity-adjunct.pw.toml"
+hash = "a521c492f6a43435f299664a04155edb2ad803b2abf6009ec279c22caee94219"
+metafile = true
+
+[[files]]
+file = "resourcepacks/modernity.pw.toml"
+hash = "24a0bf7f4ab44a738d55f5badc993eb8dd5f815d57975c509c3dbf4ddd6cb06f"
 metafile = true
