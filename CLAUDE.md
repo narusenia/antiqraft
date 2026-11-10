@@ -36,8 +36,12 @@ cd gregtech4 && mise exec -- sh ./gradlew build       # GT4 fork のビルド
 
 - スクリプトは `pack/scripts/*.zs`
 - アイテム ID は、サーバーのコンソールで `mt names` を実行すると `logs/minetweaker.log` に出る。鉱石辞書は `mt oredict <名前>`
-- `loadedMods[...].items` と `<modid:*>` は使えない。アイテムは個別に列挙する
-- 未解決: EnderIO の SAG Mill / Alloy Smelter と ComputerCraft の Turtle は `recipes.remove` で 0 件になる。`mt recipes` の一覧にも 784 件しか出ない。登録形式かタイミングの問題か調べる
+- `loadedMods[...].items` と `<modid:*>` は使えない。アイテムは個別に列挙する（Botania の一覧は `mt names` から生成した）
+- `mt reload` の結果は信用しない。`recipes.remove(出力)` は 1 つのアクションを使い回していて、1 回目に 0 件だと以降のリロードでは実行されない（`WAS STUCK`）。確認は必ずサーバーを起動し直して行う
+- 削除件数の確かめ方：起動し直した直後に 1 回だけ `mt reload` を送ると、`Trying to restore N recipes` の N が起動時に消えた件数になる
+- `mt recipes` の一覧はバニラ形式のレシピしか出さない（鉱石辞書レシピなどは出ない）ので、レシピの有無の確認には使わない
+- `Batch Remove 0 recipes` は `removeShaped` 系の別経路のログで、`recipes.remove(出力)` とは無関係
+- NBT 付きのバリエーションがあるアイテム（Turtle など）は `recipes.remove(item, true)` で素のものだけを消す
 
 ## 起動時に出るが無害なエラー
 

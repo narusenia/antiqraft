@@ -1185,8 +1185,8 @@ metafile = true
 
 [[files]]
 file = "scripts/computercraft.zs"
-hash = "3e5c98ffee2fe5c54c013b128cf5526d0cb71c3560e4d7bf2b5fa48e8fa3875b"
+hash = "e7eb295096f2d1922ee44eaa67c75e68d6c44bc36b3b5ba09f48fe5915b51c88"
 
 [[files]]
 file = "scripts/removals.zs"
-hash = "799acc3b5b5e95a92d73da369260988edde4b3a6dd62f75c1e5a4ad718bd03c9"
+hash = "b3856b9cafbfe9e4c912ff3c92351309f178df15671864725b968196d0c8f7fe"
