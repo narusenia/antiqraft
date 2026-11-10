@@ -1,0 +1,8 @@
+name = "GTNHLib"
+filename = "gtnhlib-0.12.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.12.0/gtnhlib-0.12.0.jar"
+hash-format = "sha256"
+hash = "dfed5d74f4ddd5d4c69a9859e204d5817c2fa788384ea2800d55ef2bb10c5056"

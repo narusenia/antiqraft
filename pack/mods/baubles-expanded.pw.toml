@@ -1,0 +1,8 @@
+name = "Baubles Expanded"
+filename = "BaublesExpanded-2.3.0-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/Baubles-Expanded/releases/download/2.3.0-GTNH/BaublesExpanded-2.3.0-GTNH.jar"
+hash-format = "sha256"
+hash = "b945d4faaf282ceb7bbe8be6a0dab5cfba99659c6767992e7899c83e17efe217"

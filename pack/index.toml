@@ -1,0 +1,65 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/baubles-expanded.pw.toml"
+hash = "e097026cd04fd4c3f690d8eb2738cb91d43b9a9864a852bb24c314f13afddb57"
+metafile = true
+
+[[files]]
+file = "mods/biomes-o-plenty.pw.toml"
+hash = "ad0d8412898c36d5dea25e42733516a1800c97100b70c6a7c638e5246a6e118a"
+metafile = true
+
+[[files]]
+file = "mods/codechickencore.pw.toml"
+hash = "2a6d78f178b80181c2cd314e84430dce28e5af8f3a9c0956e5a608950c211303"
+metafile = true
+
+[[files]]
+file = "mods/crafttweaker.pw.toml"
+hash = "244253dbbab3f8ed59c503ea1c753885a6ae4c9b780510755c963500c5696636"
+metafile = true
+
+[[files]]
+file = "mods/gregtechmod-v417.57.jar"
+hash = "fa070ad6bbd0fdc1a2f572f9991fc0e7b35ca8ffcfef53b2e7845237802288bc"
+
+[[files]]
+file = "mods/gtnhlib.pw.toml"
+hash = "e6b8c4aef776ae1f7e9d71c4528a0051299daa489700518454c45cb9a6092cd9"
+metafile = true
+
+[[files]]
+file = "mods/hodgepodge.pw.toml"
+hash = "6092e20b5bc5d30e2c7844fc465a1f66a166e9e242d0071a18bd8cb08afb35c5"
+metafile = true
+
+[[files]]
+file = "mods/industrial-craft.pw.toml"
+hash = "36eaa1e528a80689fe868f86c4333b7d267fb85c3d429696f0c3f9a6fb90b9b6"
+metafile = true
+
+[[files]]
+file = "mods/notenoughitems.pw.toml"
+hash = "0a3be1f94a98ef6bfa549bf9d219f0ae65392b4c8c974747c2883aecc1788c4e"
+metafile = true
+
+[[files]]
+file = "mods/thaumcraft-4-tweaks.pw.toml"
+hash = "c2d7eff5f3aeedb39a08afdce89abedebf23360102f991789f6331de12317c45"
+metafile = true
+
+[[files]]
+file = "mods/thaumcraft.pw.toml"
+hash = "f0b23db33db035ffb866e3f09a39dc7019a0de90fe32069bbc48df2ad9dc1a68"
+metafile = true
+
+[[files]]
+file = "mods/twilight-forest.pw.toml"
+hash = "07642b2609c34a3310a96455e378386104dd3825434d3c25d3eec413dc938780"
+metafile = true
+
+[[files]]
+file = "mods/unimixins.pw.toml"
+hash = "1609ec425155f59a639b7224e96eefa3f0df2cfe63fe06903110397e0717a03f"
+metafile = true
