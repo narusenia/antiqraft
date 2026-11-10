@@ -21,6 +21,10 @@ file = "config/forestry/common.cfg"
 hash = "caea87c4ff9f18a048f83212ff625762aa0f76bd6d3a3252bffa2cf4032bdeb6"
 
 [[files]]
+file = "config/roguelike_dungeons/roguelike.cfg"
+hash = "d5ea2dfd2e3f66f3fb308a16e0f2debc8a29ad7c6ac59f7bd3004170fdbfbb90"
+
+[[files]]
 file = "config/veinminer/general.cfg"
 hash = "5afe2edcd50d826bfb03159084111be5ed600159468d4453a1c7bcf8a39a222b"
 
