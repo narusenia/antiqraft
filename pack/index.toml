@@ -1,6 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/advancedsolarpanels.pw.toml"
+hash = "0f641ef3b651a5b5a9efe39ed2c311ffea8687d763e5be5baf47bd6757995215"
+metafile = true
+
+[[files]]
+file = "mods/applied-energistics-2.pw.toml"
+hash = "f6495f0f728e07d0945ec5ef3f4e99da925baa47ed4c36daeb464b5980ebb371"
+metafile = true
+
+[[files]]
 file = "mods/baubles-expanded.pw.toml"
 hash = "e097026cd04fd4c3f690d8eb2738cb91d43b9a9864a852bb24c314f13afddb57"
 metafile = true
@@ -11,13 +21,58 @@ hash = "ad0d8412898c36d5dea25e42733516a1800c97100b70c6a7c638e5246a6e118a"
 metafile = true
 
 [[files]]
+file = "mods/buildcraft.pw.toml"
+hash = "32595b936981b8b8e7c1ea3cf1ccca5aa0f07b809fa07ba1f75596581c362550"
+metafile = true
+
+[[files]]
 file = "mods/codechickencore.pw.toml"
 hash = "2a6d78f178b80181c2cd314e84430dce28e5af8f3a9c0956e5a608950c211303"
 metafile = true
 
 [[files]]
+file = "mods/cofh-core.pw.toml"
+hash = "532832dfebefa96635d1567dbfa473795f63dd86af44e770f3a2f34d8c858193"
+metafile = true
+
+[[files]]
+file = "mods/computercraft.pw.toml"
+hash = "a6d69db5937964e1b895382deb25b9dcd500cf48e78debf3a5b279556a6d7f24"
+metafile = true
+
+[[files]]
 file = "mods/crafttweaker.pw.toml"
 hash = "244253dbbab3f8ed59c503ea1c753885a6ae4c9b780510755c963500c5696636"
+metafile = true
+
+[[files]]
+file = "mods/endercore.pw.toml"
+hash = "23b3745f0e11ff20c678ae586c8df7e2a56cb2bd23958989a8291d8ec3d9c452"
+metafile = true
+
+[[files]]
+file = "mods/enderio.pw.toml"
+hash = "e9bddba38a8eddff64932c40f60b40fe4ca74b55a2e09d9a4e8a57a5d59d3ee9"
+metafile = true
+
+[[files]]
+file = "mods/forestry.pw.toml"
+hash = "32d773e190aabcb5dbe874ba6d02f83b1752d68b1a5070338980a0ac8c48bf0d"
+metafile = true
+
+[[files]]
+file = "mods/forgemultipart.pw.toml"
+hash = "76930e23f17e80dc95c8f0d7e16402399d1ea7d68c29fa03a8bb19dd606d6e03"
+metafile = true
+
+[[files]]
+file = "mods/forgerelocation.pw.toml"
+hash = "b94c6bce6c10e81778e22067ebaf60bcfd4293478e4b8b0b0ad5a89b168259dd"
+metafile = true
+
+[[files]]
+file = "mods/gravisuite.pw.toml"
+hash = "ac0913b671b7110c67f31e72d544d46adc8f653db0fd1bc17e76e871a24d34fd"
 metafile = true
 
 [[files]]
@@ -40,8 +95,28 @@ hash = "36eaa1e528a80689fe868f86c4333b7d267fb85c3d429696f0c3f9a6fb90b9b6"
 metafile = true
 
 [[files]]
+file = "mods/mrtjpcore.pw.toml"
+hash = "7c6b2fa6ec0f83c1119ba543be7f9d9aea77e827f12e87b34875d0a0ad44c8db"
+metafile = true
+
+[[files]]
 file = "mods/notenoughitems.pw.toml"
 hash = "0a3be1f94a98ef6bfa549bf9d219f0ae65392b4c8c974747c2883aecc1788c4e"
+metafile = true
+
+[[files]]
+file = "mods/opencomputers.pw.toml"
+hash = "edf34630b96e558a837a6a74de2a5593f87099b9eebc5d8a6a14988c669246b9"
+metafile = true
+
+[[files]]
+file = "mods/projectred.pw.toml"
+hash = "aa8252ac297ff3c7245a6ed2f7eeac6ecc79946a9e56accc2b2c418e258ec237"
+metafile = true
+
+[[files]]
+file = "mods/railcraft.pw.toml"
+hash = "6617a88f6c28b9d043c031f2e496da90d0e57bc3622eb4da1b471cedca1743a9"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Advanced Solar Panel For 1.7.10 (Unofficial)"
+filename = "AdvancedSolarPanel_1.7.10_Edition.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6cfe2b7bfbde96bc2f2e41878c18840f71abcc90"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2885953
+project-id = 362768

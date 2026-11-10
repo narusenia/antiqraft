@@ -1,0 +1,8 @@
+name = "GraviSuite"
+filename = "GraviSuite-1.7.10-2.0.3.jar"
+side = "both"
+
+[download]
+url = "http://downloads.gtnewhorizons.com/Mods_for_Twitch/GraviSuite-1.7.10-2.0.3.jar"
+hash-format = "sha256"
+hash = "713dc2248488934fc04d6bd62eb27be374bdc4baf428eeabcb2fd98257496a3b"

@@ -1,0 +1,8 @@
+name = "OpenComputers"
+filename = "OpenComputers-1.13.0-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.13.0-GTNH/OpenComputers-1.13.0-GTNH.jar"
+hash-format = "sha256"
+hash = "0db71e4992db444640d26d0eddcb6ae5accd90dc789a8e127304c25f23d21b1b"
