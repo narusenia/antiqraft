@@ -2,6 +2,7 @@ import mods.nei.NEI;
 
 // Botania is only a dependency of Forgotten Relics; the mana system stays unreachable.
 // Flowers, petals and dyes keep their recipes (flowers generate in the world).
+// Decorative blocks are not listed here; the ones that needed mana come from GT4's Assembler (botania.zs).
 val botania = [
     <Botania:aesirRing:*>,
     <Botania:alchemyCatalyst:*>,
@@ -118,19 +119,6 @@ val botania = [
     <Botania:craftingHalo:*>,
     <Botania:craftPattern:*>,
     <Botania:crystalBow:*>,
-    <Botania:customBrick:*>,
-    <Botania:customBrick0Slab:*>,
-    <Botania:customBrick0SlabFull:*>,
-    <Botania:customBrick0Stairs:*>,
-    <Botania:customBrick1Slab:*>,
-    <Botania:customBrick1SlabFull:*>,
-    <Botania:customBrick1Stairs:*>,
-    <Botania:customBrick2Slab:*>,
-    <Botania:customBrick2SlabFull:*>,
-    <Botania:customBrick2Stairs:*>,
-    <Botania:customBrick3Slab:*>,
-    <Botania:customBrick3SlabFull:*>,
-    <Botania:customBrick3Stairs:*>,
     <Botania:dice:*>,
     <Botania:dirtPath:*>,
     <Botania:dirtPath0Slab:*>,
@@ -139,14 +127,6 @@ val botania = [
     <Botania:distributor:*>,
     <Botania:divaCharm:*>,
     <Botania:diviningRod:*>,
-    <Botania:dreamwood:*>,
-    <Botania:dreamwood0Slab:*>,
-    <Botania:dreamwood0SlabFull:*>,
-    <Botania:dreamwood0Stairs:*>,
-    <Botania:dreamwood0Wall:*>,
-    <Botania:dreamwood1Slab:*>,
-    <Botania:dreamwood1SlabFull:*>,
-    <Botania:dreamwood1Stairs:*>,
     <Botania:elementiumAxe:*>,
     <Botania:elementiumBoots:*>,
     <Botania:elementiumChest:*>,
@@ -157,8 +137,6 @@ val botania = [
     <Botania:elementiumShears:*>,
     <Botania:elementiumShovel:*>,
     <Botania:elementiumSword:*>,
-    <Botania:elfGlass:*>,
-    <Botania:elfGlassPane:*>,
     <Botania:enchantedSoil:*>,
     <Botania:enchanter:*>,
     <Botania:enderDagger:*>,
@@ -205,22 +183,6 @@ val botania = [
     <Botania:lens:*>,
     <Botania:lightLauncher:*>,
     <Botania:lightRelay:*>,
-    <Botania:livingrock:*>,
-    <Botania:livingrock0Slab:*>,
-    <Botania:livingrock0SlabFull:*>,
-    <Botania:livingrock0Stairs:*>,
-    <Botania:livingrock0Wall:*>,
-    <Botania:livingrock1Slab:*>,
-    <Botania:livingrock1SlabFull:*>,
-    <Botania:livingrock1Stairs:*>,
-    <Botania:livingwood:*>,
-    <Botania:livingwood0Slab:*>,
-    <Botania:livingwood0SlabFull:*>,
-    <Botania:livingwood0Stairs:*>,
-    <Botania:livingwood0Wall:*>,
-    <Botania:livingwood1Slab:*>,
-    <Botania:livingwood1SlabFull:*>,
-    <Botania:livingwood1Stairs:*>,
     <Botania:livingwoodBow:*>,
     <Botania:lokiRing:*>,
     <Botania:magnetRing:*>,
@@ -231,8 +193,6 @@ val botania = [
     <Botania:manaCookie:*>,
     <Botania:manaDetector:*>,
     <Botania:manaFlame:*>,
-    <Botania:manaGlass:*>,
-    <Botania:manaGlassPane:*>,
     <Botania:manaGun:*>,
     <Botania:manaInkwell:*>,
     <Botania:manaMirror:*>,
@@ -264,27 +224,7 @@ val botania = [
     <Botania:openBucket:*>,
     <Botania:openCrate:*>,
     <Botania:overgrowthSeed:*>,
-    <Botania:pavement:*>,
-    <Botania:pavement0Slab:*>,
-    <Botania:pavement0SlabFull:*>,
-    <Botania:pavement0Stairs:*>,
-    <Botania:pavement1Slab:*>,
-    <Botania:pavement1SlabFull:*>,
-    <Botania:pavement1Stairs:*>,
-    <Botania:pavement2Slab:*>,
-    <Botania:pavement2SlabFull:*>,
-    <Botania:pavement2Stairs:*>,
-    <Botania:pavement3Slab:*>,
-    <Botania:pavement3SlabFull:*>,
-    <Botania:pavement3Stairs:*>,
-    <Botania:pavement4Slab:*>,
-    <Botania:pavement4SlabFull:*>,
-    <Botania:pavement4Stairs:*>,
-    <Botania:pavement5Slab:*>,
-    <Botania:pavement5SlabFull:*>,
-    <Botania:pavement5Stairs:*>,
     <Botania:pestleAndMortar:*>,
-    <Botania:petalBlock:*>,
     <Botania:phantomInk:*>,
     <Botania:pinkinator:*>,
     <Botania:pistonRelay:*>,
@@ -306,35 +246,6 @@ val botania = [
     <Botania:prismarine2Stairs:*>,
     <Botania:pump:*>,
     <Botania:pylon:*>,
-    <Botania:quartz:*>,
-    <Botania:quartzSlabBlazeFull:*>,
-    <Botania:quartzSlabBlazeHalf:*>,
-    <Botania:quartzSlabDarkFull:*>,
-    <Botania:quartzSlabDarkHalf:*>,
-    <Botania:quartzSlabElfFull:*>,
-    <Botania:quartzSlabElfHalf:*>,
-    <Botania:quartzSlabLavenderFull:*>,
-    <Botania:quartzSlabLavenderHalf:*>,
-    <Botania:quartzSlabManaFull:*>,
-    <Botania:quartzSlabManaHalf:*>,
-    <Botania:quartzSlabRedFull:*>,
-    <Botania:quartzSlabRedHalf:*>,
-    <Botania:quartzSlabSunnyFull:*>,
-    <Botania:quartzSlabSunnyHalf:*>,
-    <Botania:quartzStairsBlaze:*>,
-    <Botania:quartzStairsDark:*>,
-    <Botania:quartzStairsElf:*>,
-    <Botania:quartzStairsLavender:*>,
-    <Botania:quartzStairsMana:*>,
-    <Botania:quartzStairsRed:*>,
-    <Botania:quartzStairsSunny:*>,
-    <Botania:quartzTypeBlaze:*>,
-    <Botania:quartzTypeDark:*>,
-    <Botania:quartzTypeElf:*>,
-    <Botania:quartzTypeLavender:*>,
-    <Botania:quartzTypeMana:*>,
-    <Botania:quartzTypeRed:*>,
-    <Botania:quartzTypeSunny:*>,
     <Botania:rainbowRod:*>,
     <Botania:reachRing:*>,
     <Botania:recordGaia1:*>,
@@ -357,15 +268,6 @@ val botania = [
     <Botania:runeAltar:*>,
     <Botania:seaLamp:*>,
     <Botania:sextant:*>,
-    <Botania:shimmerrock:*>,
-    <Botania:shimmerrock0Slab:*>,
-    <Botania:shimmerrock0SlabFull:*>,
-    <Botania:shimmerrock0Stairs:*>,
-    <Botania:shimmerwoodPlanks:*>,
-    <Botania:shimmerwoodPlanks0Slab:*>,
-    <Botania:shimmerwoodPlanks0SlabFull:*>,
-    <Botania:shimmerwoodPlanks0Stairs:*>,
-    <Botania:shinyFlower:*>,
     <Botania:signalFlare:*>,
     <Botania:skyDirtRod:*>,
     <Botania:slimeBottle:*>,
@@ -453,6 +355,29 @@ for item in botania {
     recipes.remove(item);
 }
 NEI.hide(<Botania:lexicon>);
+
+// Botania puts mana items in vanilla chests; keep them out of loot
+val lotus = <Botania:blackLotus:*>;
+val seed = <Botania:overgrowthSeed:*>;
+val lootChests = [
+    "bonusChest", "strongholdCorridor", "dungeonChest", "pyramidDesertyChest", "mineshaftCorridor", "pyramidJungleChest", "villageBlacksmith"
+] as string[];
+val lootItems = [
+    [<Botania:lexicon:*>, lotus],
+    [<Botania:manaResource:*>, lotus, seed],
+    [<Botania:manaResource:*>, <Botania:lexicon:*>, <Botania:manaBottle:*>, lotus, seed],
+    [lotus, seed], [lotus, seed], [lotus, seed], [lotus]
+] as minetweaker.item.IItemStack[][];
+for i, chest in lootChests {
+    for item in lootItems[i] {
+        vanilla.loot.removeChestLoot(chest, item);
+    }
+}
+
+// Forgotten Relics adds no chest loot. The Crown of Terror is the one relic that runs on mana (it repairs itself with it).
+// Its research stays because other relics' research hangs off it.
+mods.thaumcraft.Infusion.removeRecipe(<ForgottenRelics:ItemTerrorCrown>);
+NEI.hide(<ForgottenRelics:ItemTerrorCrown>);
 
 // Ore processing belongs to GregTech
 recipes.remove(<EnderIO:blockSagMill>);

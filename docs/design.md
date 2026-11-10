@@ -30,7 +30,12 @@ Minecraft 1.7.10 / Forge 10.13.4.1614 の Modpack。工業・魔術・冒険の 
 - Botania は Forgotten Relics の前提 Mod として入れる。マナの仕組みは使わせない
   - 残す：神秘の花の自然生成、装飾ブロック（マナが要るレシピは GT の機械に置き換える）
   - 消す：Lexica Botania、マナを使う道具・レリック、Gaia Guardian
-  - Forgotten Relics のうちマナを使うレリックは、宝箱のドロップから外す
+  - Forgotten Relics は宝箱に何も足さない。マナを使うレリック（Crown of Terror。マナで耐久値を回復する）は Infusion レシピを消して NEI から隠す
+  - Forgotten Relics の Infusion で使う Botania の素材（Gaia Spirit、ルーン、マナ資源など）は、Thaumcraft の素材に置き換える
+    - 置き換え：Gaia Spirit → Void Metal Ingot、Terrasteel → Thaumium Block、Elementium → Thaumium Ingot、Dragonstone → ダイヤ、Pixie Dust → Salis Mundus、Mana Pearl・Bottled Ender Air → エンダーパール、Rune of Air → Air Shard
+    - Botania の道具・装身具：中心の Ring of Far Reach → Mundane Ring、Tectonic Girdle → Girdle of Runic Shielding、Tainted Blood Pendant → Amulet of Runic Shielding、Dragonstone → ダイヤ。周りの Crimson Pendant → Fire Focus、Pyroclast Pendant → 耐火のポーション、Golden Laurel → エンチャントされた金のリンゴ、Rod of the Shaded Mesa → Telekinesis Focus（Thaumic Tinkerer）、Rod of the Unstable Reservoir → Primal Focus、Star Sword → Sword of the Zephyr、Key of the King's Law → Primordial Pearl
+    - 研究・中心（Botania 以外）・不安定度・Aspect は元のまま（`pack/scripts/forgottenrelics.zs`）
+  - Botania 自身が宝箱に入れるマナ関連のアイテム（Lexica Botania、Black Lotus、Mana Bottle、マナ資源、Overgrowth Seed）は外す
 
 ## 冒険
 
