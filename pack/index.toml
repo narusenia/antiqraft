@@ -188,8 +188,8 @@ hash = "ac0913b671b7110c67f31e72d544d46adc8f653db0fd1bc17e76e871a24d34fd"
 metafile = true
 
 [[files]]
-file = "mods/gregtechmod-v417.57.jar"
-hash = "fa070ad6bbd0fdc1a2f572f9991fc0e7b35ca8ffcfef53b2e7845237802288bc"
+file = "mods/gregtechmod-v417.58.jar"
+hash = "c65db9132727bb78a5704ad4441b32a3cdf18c54268d30ecea4cad422cd05ce6"
 
 [[files]]
 file = "mods/gtnhlib.pw.toml"
@@ -1108,8 +1108,8 @@ hash = "3d670951f35d12623b2b07df6c8246d56514ca8788562f5b1ddd3861f6bf5867"
 metafile = true
 
 [[files]]
-file = "mods/thaumcraft-4-tweaks.pw.toml"
-hash = "c2d7eff5f3aeedb39a08afdce89abedebf23360102f991789f6331de12317c45"
+file = "mods/tc4tweaks.pw.toml"
+hash = "06f517609d8d9996653f56c1c47ff38cfff578ed482bf9c775f4c92d451847ad"
 metafile = true
 
 [[files]]
@@ -1198,12 +1198,60 @@ hash = "94bd3f39265ec01bdd31658d7641de8fbe650016244cf3195952ad8f34509d5b"
 metafile = true
 
 [[files]]
+file = "scripts/advancedsolarpanels.zs"
+hash = "bac6938b9a9225b700e598cf808e813298aa725605f770eaf2e9b76e80977b84"
+
+[[files]]
+file = "scripts/appliedenergistics.zs"
+hash = "a4da3d006c4d64e608e898179cc8f834b8a56759a4bb7d61ed20fad33d1c4703"
+
+[[files]]
+file = "scripts/botania.zs"
+hash = "4f5d952b9403f7e78815b3a7c06bf5e23b0bbdd2bfd18cd777ff8d0f25560045"
+
+[[files]]
+file = "scripts/buildcraft.zs"
+hash = "88efb57d753136c764816857b6d1e10f388c2fbb5f2ec61066c719c643b5e4d0"
+
+[[files]]
 file = "scripts/computercraft.zs"
 hash = "e7eb295096f2d1922ee44eaa67c75e68d6c44bc36b3b5ba09f48fe5915b51c88"
 
 [[files]]
+file = "scripts/emt.zs"
+hash = "b8eacb5f1c9b69d5a43ea76aeaba827b33502fddadf50ed24485e7e14c7d21bd"
+
+[[files]]
+file = "scripts/enderio.zs"
+hash = "03dc20f87f5dd9f09af4d8bf21c59071b82c106ac782ab8c50925943ec1e9eab"
+
+[[files]]
+file = "scripts/etfuturum.zs"
+hash = "0946c4fcb4bae236e62c454d4a547ccc2164dc88fcb20a23f30cf9dd978aa834"
+
+[[files]]
+file = "scripts/forestry.zs"
+hash = "6540d74b6bd77ce2ef91af7fcfaff682ffec55967bf81b3db19a625408f6ac03"
+
+[[files]]
+file = "scripts/forgottenrelics.zs"
+hash = "b3f6880cf21a6899146416f669f9cff9f9e503340ca314ee9153f6f5916df7c7"
+
+[[files]]
+file = "scripts/gravisuite.zs"
+hash = "964ef5d8c609b5641ed7d1e84d7dc921a56f9a50a8c61aff0c584a106caacaa4"
+
+[[files]]
+file = "scripts/harvestcraft.zs"
+hash = "567ae4d1932eb6319a0b5d005dbfe0f861876c6f143d86abb1e0e4eaf59846b5"
+
+[[files]]
 file = "scripts/ironchests.zs"
 hash = "ff36049de66946dc608a7038f7d5bc36155282d17c56b4c5ee3f5ab73414a834"
+
+[[files]]
+file = "scripts/opencomputers.zs"
+hash = "f8fe8d8c99f2ce7b7770eac1a5e056fcb9d4f8962369d64f105db41d60860965"
 
 [[files]]
 file = "scripts/projectred.zs"
@@ -1211,11 +1259,15 @@ hash = "300a2e7b09e8336532146a69fe54dcd8f4bb182798806e6984197113b3089aca"
 
 [[files]]
 file = "scripts/railcraft.zs"
-hash = "95158e1f763b70a86c191e4ff1bf97a782591f4bf36fa1e5d885414ca98dcaf1"
+hash = "7ba07967789529165b7a61ad87077f40c1300f1b38a0713d8638de8c9bc4f402"
 
 [[files]]
 file = "scripts/removals.zs"
-hash = "b3856b9cafbfe9e4c912ff3c92351309f178df15671864725b968196d0c8f7fe"
+hash = "6037cf1453f829102371efc976ca542fde503f8dec9927c1c8422612c42007a2"
+
+[[files]]
+file = "scripts/smalltools.zs"
+hash = "7eb563ca155e49e6e8707e89ca459c55d4030d6bed7aff1662875ea18c2fce97"
 
 [[files]]
 file = "scripts/storagedrawers.zs"
@@ -1223,4 +1275,8 @@ hash = "4984741ea61433f91b72636439107cba5f0b9eb8f6dd19ca9b89562c1381395a"
 
 [[files]]
 file = "scripts/thaumcraft.zs"
-hash = "7abd88d7c2912de43f32e27b295b0e958c5ab612a150851a784f3b0567151dd8"
+hash = "1709c4a68c911931826d94c45d2aa9cb162ca36f2ceb7e5f64a72c7ac3a47cef"
+
+[[files]]
+file = "scripts/thaumicenergistics.zs"
+hash = "5a596bedeac5d0b8f2010bc11c38a3257531425255548278b57144f032a90733"
