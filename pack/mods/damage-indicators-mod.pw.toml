@@ -1,0 +1,13 @@
+name = "Damage Indicators Mod"
+filename = "[1.7.10]DamageIndicatorsMod-3.3.2.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "e281c1d5cf72978cebe2e979c80b724d578788dc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2692129
+project-id = 59489

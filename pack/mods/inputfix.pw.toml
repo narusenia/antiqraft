@@ -1,0 +1,13 @@
+name = "InputFix"
+filename = "InputFix-1.7.10-v6.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "49fb8c95c323fa2b1e2066a59d6833125236b3a9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4408526
+project-id = 71620

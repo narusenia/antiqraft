@@ -1,0 +1,8 @@
+name = "ServerUtilities"
+filename = "ServerUtilities-2.5.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.5.0/ServerUtilities-2.5.0.jar"
+hash-format = "sha256"
+hash = "3cae1fb4e2c106c44444ddc9d5d756f49984ac5231e373dea69baa33fe46d1dd"

@@ -1,0 +1,8 @@
+name = "Waila Harvestability"
+filename = "WailaHarvestability-1.4.0-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/WailaHarvestability/releases/download/1.4.0-GTNH/WailaHarvestability-1.4.0-GTNH.jar"
+hash-format = "sha256"
+hash = "5a4ffdc157133a34533412cfc21227a195d4e9804041e8a78e88826dc2ed7138"

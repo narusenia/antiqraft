@@ -1,0 +1,8 @@
+name = "Iron Chests"
+filename = "IronChest-6.2.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/ironchest/releases/download/6.2.0/IronChest-6.2.0.jar"
+hash-format = "sha256"
+hash = "bae8c71cd14224355b8555d6b64f7f21b8105dbd18a3831925d33e3cc067a22c"

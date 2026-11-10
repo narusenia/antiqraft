@@ -1,13 +1,37 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/Ruins-1.7.10.jar"
+hash = "fcaa7b8d3d18b9e14dc6238936099e96f442d9d83fba1f2e021e11b3e3299226"
+
+[[files]]
 file = "mods/advancedsolarpanels.pw.toml"
 hash = "0f641ef3b651a5b5a9efe39ed2c311ffea8687d763e5be5baf47bd6757995215"
 metafile = true
 
 [[files]]
+file = "mods/adventure-backpack.pw.toml"
+hash = "2395841d27f5a1ac65b8be610aaa29df85baf26a893fad96c004fe12e0a6dbd4"
+metafile = true
+
+[[files]]
+file = "mods/angelica.pw.toml"
+hash = "52be8801d2d54b0e3bb35eb23b9b6a40cfb85d288fa4d3c84c907e1450953ca1"
+metafile = true
+
+[[files]]
 file = "mods/applied-energistics-2.pw.toml"
 hash = "f6495f0f728e07d0945ec5ef3f4e99da925baa47ed4c36daeb464b5980ebb371"
+metafile = true
+
+[[files]]
+file = "mods/archaicfix.pw.toml"
+hash = "60df81a85c2e1f839cbef608311c065dd026f969176b020cc1eb02f29b357f1e"
+metafile = true
+
+[[files]]
+file = "mods/atomicstrykers-battle-towers.pw.toml"
+hash = "a4cc3e33a4aa010c55ac880dcfd8a2d4df3818f2ef0a2e66f41791f9ecd567f3"
 metafile = true
 
 [[files]]
@@ -18,6 +42,11 @@ metafile = true
 [[files]]
 file = "mods/baubles-expanded.pw.toml"
 hash = "e097026cd04fd4c3f690d8eb2738cb91d43b9a9864a852bb24c314f13afddb57"
+metafile = true
+
+[[files]]
+file = "mods/betterquesting.pw.toml"
+hash = "6169fe554ed6b2b5222e309665a8b1a95c5e5e8897655676751b76003098a73b"
 metafile = true
 
 [[files]]
@@ -41,6 +70,16 @@ hash = "32595b936981b8b8e7c1ea3cf1ccca5aa0f07b809fa07ba1f75596581c362550"
 metafile = true
 
 [[files]]
+file = "mods/carpenter-s-blocks.pw.toml"
+hash = "09cdf9b05a405ec03f2e1624b1d683b9e5f2bd1fb1dd359992f2fc10949cbc81"
+metafile = true
+
+[[files]]
+file = "mods/chisel.pw.toml"
+hash = "49125fbcfb06dd3b8dc59f07904a05eb78ed3ebc1a0479c92819926accf5a2c9"
+metafile = true
+
+[[files]]
 file = "mods/codechickencore.pw.toml"
 hash = "2a6d78f178b80181c2cd314e84430dce28e5af8f3a9c0956e5a608950c211303"
 metafile = true
@@ -61,6 +100,11 @@ hash = "244253dbbab3f8ed59c503ea1c753885a6ae4c9b780510755c963500c5696636"
 metafile = true
 
 [[files]]
+file = "mods/damage-indicators-mod.pw.toml"
+hash = "7d0edbec6ac2106bd8d80116505094151b21d5f717fa85b902dfc426f6716bc0"
+metafile = true
+
+[[files]]
 file = "mods/electro-magic-tools.pw.toml"
 hash = "eddd14926de587a1cf5d6c56013417df07e7e002a1252b1fc5ec77b38cc4c79a"
 metafile = true
@@ -73,6 +117,11 @@ metafile = true
 [[files]]
 file = "mods/enderio.pw.toml"
 hash = "e9bddba38a8eddff64932c40f60b40fe4ca74b55a2e09d9a4e8a57a5d59d3ee9"
+metafile = true
+
+[[files]]
+file = "mods/et-futurum-requiem.pw.toml"
+hash = "4ea1e7d236f73cb971a50f7ea054eb3ff08a8ea926d3cfe41171d1d1dd5ff85f"
 metafile = true
 
 [[files]]
@@ -101,6 +150,11 @@ hash = "69fcb68808aa6472302007c67d33957cc2ca069b6ef5102556decb8b9662e399"
 metafile = true
 
 [[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "d451fd8fe5310103844d248fe6826636bb1ac4cbcd62b2bb2f49c18e5f02489b"
+metafile = true
+
+[[files]]
 file = "mods/gravisuite.pw.toml"
 hash = "ac0913b671b7110c67f31e72d544d46adc8f653db0fd1bc17e76e871a24d34fd"
 metafile = true
@@ -125,13 +179,48 @@ hash = "36eaa1e528a80689fe868f86c4333b7d267fb85c3d429696f0c3f9a6fb90b9b6"
 metafile = true
 
 [[files]]
+file = "mods/infernal-mobs.pw.toml"
+hash = "7626e77cd55e8af6697b4a971c84075037ed2a850802f56b4c525f469fe540c1"
+metafile = true
+
+[[files]]
+file = "mods/inputfix.pw.toml"
+hash = "2996a721fc03dc538e21f45274699bd986327862ff9af92c4ddf51952abff6ab"
+metafile = true
+
+[[files]]
+file = "mods/inventory-tweaks.pw.toml"
+hash = "ab4c37d09ccd43f26ba4ce562243b7076d215ff0a0678b3c7406b1409ca8ac10"
+metafile = true
+
+[[files]]
+file = "mods/iron-chests.pw.toml"
+hash = "2680efac328c3c5a4a2fd1b8307e29e91b41cfc9ced1250eecb0e253f40ca83e"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "d818e988a3ee5e85eb3db6da7fb548924ce253c20aac9bb359cc7acccfee2835"
+metafile = true
+
+[[files]]
 file = "mods/modularui.pw.toml"
 hash = "5b7f778d5469a945035cbf025077986ddfdd4fbb9d367b68c5b31f9b242e8b9e"
 metafile = true
 
 [[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "1b97896e610aec49d42eea0519054dc8b636e0314a365df8178bde6cbb384744"
+metafile = true
+
+[[files]]
 file = "mods/mrtjpcore.pw.toml"
 hash = "7c6b2fa6ec0f83c1119ba543be7f9d9aea77e827f12e87b34875d0a0ad44c8db"
+metafile = true
+
+[[files]]
+file = "mods/nei-integration.pw.toml"
+hash = "69a5c8afb0cd9a9050a424ed8e8c9debdf6113ee8921d109373597dc37cf3748"
 metafile = true
 
 [[files]]
@@ -142,6 +231,11 @@ metafile = true
 [[files]]
 file = "mods/opencomputers.pw.toml"
 hash = "edf34630b96e558a837a6a74de2a5593f87099b9eebc5d8a6a14988c669246b9"
+metafile = true
+
+[[files]]
+file = "mods/pams-harvestcraft.pw.toml"
+hash = "5cd824f1d1a4bfd2a90504eeed416bdb68fd55bbcd93e137ff1c651794d95943"
 metafile = true
 
 [[files]]
@@ -157,6 +251,822 @@ metafile = true
 [[files]]
 file = "mods/railcraft.pw.toml"
 hash = "6617a88f6c28b9d043c031f2e496da90d0e57bc3622eb4da1b471cedca1743a9"
+metafile = true
+
+[[files]]
+file = "mods/resources/ruins/generic/AlchemistsDungeon.tml"
+hash = "302625223820ace67ee73d93db07db247ae369ad369e3449bbcfc41850517f77"
+
+[[files]]
+file = "mods/resources/ruins/generic/Altar.tml"
+hash = "d0b2c6b7d660260d9ab2fd0224e05dfcb423bf1bc5d159dd52d25576feb42f60"
+
+[[files]]
+file = "mods/resources/ruins/generic/AncientFountain.tml"
+hash = "971225d42f3648067b24271d92f6bc81ed5949d2a2db8e0b29a1b29dd0884019"
+
+[[files]]
+file = "mods/resources/ruins/generic/Archway.tml"
+hash = "965d2ac33bd59b0f65ee3040a4438aedc82115f47de6cac87ebb9561e2410789"
+
+[[files]]
+file = "mods/resources/ruins/generic/ArrowTrapTomb.tml"
+hash = "d547f78d4cf44b8d7fe4e2724c9d38152398be5206e9b6ba66b59f63e5c6601b"
+
+[[files]]
+file = "mods/resources/ruins/generic/Barn-intact.tml"
+hash = "a475cf6ff016433221e54327e9efb7aedc325b385b5e46053fa2128474932875"
+
+[[files]]
+file = "mods/resources/ruins/generic/CastleModified.tml"
+hash = "32a4ecd24374e9de33404e557ca9dd21a9b7de458fd1c5780c95f4bebe41a53c"
+
+[[files]]
+file = "mods/resources/ruins/generic/CaveSpiderBurrow.tml"
+hash = "b16d48ba3824c9774ff463b6051367f68bec490abf6ca13998bec7fff9a2c1ca"
+
+[[files]]
+file = "mods/resources/ruins/generic/EmeraldOreOutcrop.tml"
+hash = "538c0a9ecbb46de2372d30db5423e66b92516277af0d1125a23cab217921b7ea"
+
+[[files]]
+file = "mods/resources/ruins/generic/Floater.tml"
+hash = "8b3f43f9ef4dc2d34c981556db55976f0859b40065c1ef98d2f4303da5542420"
+
+[[files]]
+file = "mods/resources/ruins/generic/Mausoleum.tml"
+hash = "d1b921d33a2d3d076c84bafd47bfefed432d6ca1be605bf7141e37e4f91aac6a"
+
+[[files]]
+file = "mods/resources/ruins/generic/Melonfield.tml"
+hash = "19f5eb7aea51c8b9da464d1ad628b6599bbca3c249fd532ee1ed38984998d94a"
+
+[[files]]
+file = "mods/resources/ruins/generic/MinersHut.tml"
+hash = "0974a216da764e2bbc5df8ebcb248d8174a3e48fc1b61ef3e9b68370fe400cff"
+
+[[files]]
+file = "mods/resources/ruins/generic/MoaiHead.tml"
+hash = "cad53cd2ea5bd2df9c6a3f2ce095d80223308a6a192f4d51e51d1cd2b57e147b"
+
+[[files]]
+file = "mods/resources/ruins/generic/OreSpire.tml"
+hash = "8666daa09ce8b5ed907a9d16c246e04bb8a30bec559ccee6a0b265fb78451c22"
+
+[[files]]
+file = "mods/resources/ruins/generic/Outcrop.tml"
+hash = "f80941779c71a40e7775756f2199c3941f56091a174df742971b375f91e67fbb"
+
+[[files]]
+file = "mods/resources/ruins/generic/PirateShip.tml"
+hash = "e3f9b4e42d1865da0c1d84b117b3ba3aa02f4b3eb82d7e3932e2dd1e9952b184"
+
+[[files]]
+file = "mods/resources/ruins/generic/PumpkinField.tml"
+hash = "505fde576f59511702df025ba5ef67db7a714c5d81b6d71966f4a9d5adb98aa6"
+
+[[files]]
+file = "mods/resources/ruins/generic/RuinedSmallFountainDiagonal.tml"
+hash = "ef76c89864e3611f80d0297c96640eea563c165d95764e8ea57557bafc1a61b5"
+
+[[files]]
+file = "mods/resources/ruins/generic/SkeletonHeadStatue.tml"
+hash = "1ba6f6c91d6b684aa86aed99220d4298f2234d4738bec2371ad948c351261d2f"
+
+[[files]]
+file = "mods/resources/ruins/generic/StoneGrill.tml"
+hash = "1d5e6da26f2da7688fffd45baced4d519a458ac8d23c52eaaca0fa017194c1d1"
+
+[[files]]
+file = "mods/resources/ruins/generic/StoneHouseMruined.tml"
+hash = "963293a98e41397105a2c3f3e4f5c9ef6312e5673f2924331d1ee781c01fa0db"
+
+[[files]]
+file = "mods/resources/ruins/generic/StonePillar.tml"
+hash = "7475dba67e67fa8aea8bed42a33bbe4bbde4eb260cb6fe4f1d0b76fd8cd9301f"
+
+[[files]]
+file = "mods/resources/ruins/generic/TinyFarmField.tml"
+hash = "116695d95e396fd13ec7ea059101595467f778290c2aba9ecce302fc8fd6b6d3"
+
+[[files]]
+file = "mods/resources/ruins/generic/VolcanicVent.tml"
+hash = "86787160df86e08d2d744d6e7cce14ad27080a27fdb8be752b162e92efde5cf0"
+
+[[files]]
+file = "mods/resources/ruins/generic/ZombieHut.tml"
+hash = "ef6c6e398565f25f9d77439ac4fc4aaada0d1bb15cc71872e7c75aac3e33b415"
+
+[[files]]
+file = "mods/resources/ruins/glorious eternal credits.txt"
+hash = "3e702fce249eca599071483d3478e5a9c112edf9ac965e2dbc9172167056c688"
+
+[[files]]
+file = "mods/resources/ruins/jungle/JungleThroneWood.tml"
+hash = "b3680eed0f3694b5a275b5c48207b6448cbe55805949ba250005b23dbe7df63c"
+
+[[files]]
+file = "mods/resources/ruins/jungle/JungleTreePlatform.tml"
+hash = "88214a92eee6f8f6e6e703416a23a34abafcaf3bc689c1f43cc7072062470fd8"
+
+[[files]]
+file = "mods/resources/ruins/jungle/JungleTreePlatform_edit.tml"
+hash = "86f0bc4aa352a57d7be843152815f2d8418cd440836bcaf992ca9b94a78a6b6f"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/badlands/AlchemistsDungeon.tml"
+hash = "2a8a35439c3fc674b4cfd83f04ad22e3157147942e4827cfd68d507ca072bb9b"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/badlands/BattleBasementEasy.tml"
+hash = "9504cd3c15008defef80eab4bd3c1f961ccf9db11323baed6f23ef16a3a685ff"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/badlands/BattleBasementHard.tml"
+hash = "7ac25554340a1b07cd40ae0a9f4c570cf01ffee1375279936ef3ab3caf1b0660"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/badlands/BattleBasementMedium.tml"
+hash = "739480cea859c8b62f4cb9f0cb2993cc60e9d8eec5403c5c2e4a24d456395260"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/badlands/DwarfBase-mtn.tml"
+hash = "72b5139020ecaf5144ef2ff66df298b3bedb8f81ca33622fd5e148a57774d98f"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/badlands/FlamingSkullHouse.tml"
+hash = "5a2103f9d976a7ba437b974f2bb0b40e86d38c34a85e41abe3e82b4916e92be0"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/badlands/Gnomeworks.tml"
+hash = "d4e67940c876a4a6095376eb22cea659f90869b50be5da6358bbc854c0cf08d6"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/badlands/GoldWell.tml"
+hash = "a3b703a256636a83359b6d0f4097211b4a6c20569e947cc5ed3f707994eb713d"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/badlands/MobTower.tml"
+hash = "1e2fd3eaefd7b37b550fd1239707cedbfc8a773044758564d9fbf95d73764344"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/badlands/Orthanc.tml"
+hash = "9d731b1234eb9b7a8f9e6b7e0e855999580f26a8cff294ffbea5b05a26e7faa1"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/badlands/Pit-big.tml"
+hash = "be36f70188f70b7830a7a206c3dd3fb4604a6e1ec9bde9b960a0a84d80d14329"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/badlands/Pit-med.tml"
+hash = "a5cbd7c2a10463d32d04d8b8f4b3409868583d8c283ec304989f1e3464494202"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/badlands/Pit-small.tml"
+hash = "352971f16ac1970713a1b5d5b98cdc86c2c8e12fc6939634e8ee80b6a498e957"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/badlands/TowerHard.tml"
+hash = "3e64546acbc9b45442e2a4f2ed1bb449a37071159a29a8f3f9db1dcb1d55d84a"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/badlands/VolcanicVent3_good.tml"
+hash = "e89255df101ae9929553bc4ce9620bda85ff37fb86eb8021cb5e142ed27d386d"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/beach/LightHouse.tml"
+hash = "b885726f8c7c82581a09a0a35438f751ff45d099ac1b50bed189070befbd8d91"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/DesertBarrow.tml"
+hash = "288cf00b26b2419ac59aa3f10426850b0480ca5ee84bd826e9ddc134d9658e90"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/DesertPanthenon.tml"
+hash = "cedd45db4d36858a33554215c47384ce960bc02d8ce47162dc0118112a6799e6"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/DesertPanthenonRuined.tml"
+hash = "8765dd27ffadcada0bc338a40ffed80be991c5cef66a0f0632f998b73308e881"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/DesertSmallFort_Intact.tml"
+hash = "240da01d68fd08bf1a20c9ad3f67d2f56b1ca78e0af1b003aac3c836a7d902ed"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/DesertSmallFort_Ruined.tml"
+hash = "a8eb3b9c7ca40ef2a82330e65f163c587f209e298c889cab4591ee62ce4b6df0"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/DiamondWell.tml"
+hash = "322bf602411c1418c410cab7e236d1ee4ad03b4d2fb36ff649548a6617e29f96"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/LargeSandstoneHouse.tml"
+hash = "79f1140618a33508e4ca7ed8915294aeeeac67a4fbb4176361cab20070f25907"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/Monolith.tml"
+hash = "eb9eeb646c6aeeed0ddb88ce31d489a066124c24e2ebf8d69dbadaa46a6d035b"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/Obelisk.tml"
+hash = "6798823b6c0ea3f831b0bfcad0418dbe06da55f832142991dba2026ba12f8995"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/Pyramid.tml"
+hash = "b973dc6933371ee47d2ee02855dc05f98fbdc2602c59bf8b6f4f60533ae877bc"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/RuinedDryFountain.tml"
+hash = "d0d8cb4c45cdec6e919125120697ded430c2bfdc1fdcf96f50e4618965c82eaf"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/RuinedSmallFountainDiagonal.tml"
+hash = "9dcd9b748f1fc830214f3552162111b6d39d101fea78875def6d2f9de0c9e4d6"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandCastle.tml"
+hash = "6922199ccf4b218542fc2946c6b3c79a4d90f0ba05c6151a32d54d76b2d6dc79"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandSpire.tml"
+hash = "e16bcd292672889495c21c001ee82be5a414a01c56e44c8474ad86cdf46aaa76"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandTrap.tml"
+hash = "696050175d0a671a6aa7b114f6a009c6420c8696abc2f93da518cdf82d420da1"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneBld1_Intact.tml"
+hash = "aa099a41e08386f9c33d6a47c009a1806c609f73aea64f8b0757dbe2bb44b3fb"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneBld1_Ruined.tml"
+hash = "690595697846b1968dcee48f7aac341ad59b3e1a482f6ce529f75d5842fdb762"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneBld2_Intact.tml"
+hash = "ac906153c2b1618c8760a08dc7de88d8346be6ccca5f1a7c52ad53d4d4df3895"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneBld2_Ruined.tml"
+hash = "e82fa98c998df49a7130eee929dc34b98695f5f2cd54c35a2d7f16e64f569fa6"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneBld3_Intact.tml"
+hash = "16a9f390780ce0996794f42a001bbe97490a49f27932b34c17417e9015d7c051"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneBld3_Ruined.tml"
+hash = "d70204b39060a1c88aff9805749ceb306b0849dc2d89da3a88d4219db0a3d21d"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneBld4_Intact.tml"
+hash = "14bd71514ef401fff5ba14ad377613749539bb1d41fd728a6f1874201aeb842e"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneBld4_Ruined.tml"
+hash = "cf6457352d7e5336cddf9327b67a7b7e95e5bd0f977028a0095fdfa80977d897"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneBld5_Intact.tml"
+hash = "9f891c666de7c22f8f05d7bbf180abbbb7f4b55d837310ea30e64dcf80d8880d"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneBld5_Ruined.tml"
+hash = "e30a5cdc6194355b2da9f146708b11bbf8f8d1fcb045ec1ebd2353a93cd61727"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneBld6_Intact.tml"
+hash = "6d93c932e62b1dba700d67508d6574dcbdc3bef5f4c377e38ae087d76ab8efa3"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneBld6_Ruined.tml"
+hash = "454d2ab681514aac684473c732634b7944deb96e910530d62c56be947ad01388"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneHouse.tml"
+hash = "1d9f1da120401c292e02ab1a181adf66ac7dead50c27b665e03096416214a359"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneHouse1_Intact.tml"
+hash = "868393d876c228ec9e81270fae58de955af28c750ecdd21e688d3b5c3397bf41"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneHouse1_Ruined.tml"
+hash = "300dc2486796416289515d2e84cdb8aefce6b982cc0c8dbd75331a8a2f57770f"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneHouse2_Intact.tml"
+hash = "855510e001b80f45040065e4d52c81577761e0d576359ddbebabc57cc282da4f"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneHouse2_Ruined.tml"
+hash = "1bdffdc76511ab9bd931a4fc8643bce814f8a4370a5869392e023399941db554"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneHouse3_Intact.tml"
+hash = "e2d69e99213fa9f6df5e54269eda08d2b94085622a3b0518f6e422ad80204110"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneHouse3_Ruined.tml"
+hash = "04078791264d45d69950f3dd07d3ac1c0685f273f9025fbce83d63305c1ccf8c"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstonePool_Intact.tml"
+hash = "da0df0c433022a8de93c32c255aa7b24cf74191f3d6d553f5076d21942640490"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstonePool_Ruined.tml"
+hash = "dc4f16912511f691611dedb060539d33da61abd7b487b4f6cbc74dba6a44c43a"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneRuin.tml"
+hash = "5490d11ee8fb1a194547924fbdbb46685f46ace0cdb33f976bf4ab33ea233ef8"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneStructure1_Intact.tml"
+hash = "c516fa69c43be1f8e00bc83a7a161a4a395b4d2737ca76a706753a8f2873ca2b"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneStructure1_Ruined.tml"
+hash = "c52cc6755c9bb12e1bdbfa722ad357bac37b1b982ad8f91fa6d2988229a1f954"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneStructure2_Intact.tml"
+hash = "3944f0e41b98d2941a48cc05465a38a4577801c2aa8cf430c45d5f9424cfadfe"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneStructure2_Ruined.tml"
+hash = "9f85cee1af0fe48de6e33c8ef505c95f460046635d8fe6a814ae1bde9b7d155d"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneVanillaL-Modified.tml"
+hash = "f8fbf90c55d3d23b4b767947d69c2dfc8059332fb0448223360b1b949988e002"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/SandstoneVanillaS-Modified.tml"
+hash = "1e5666b61f22caea7d1ffbeb654384cccafd4ee3c1b1360a8afa799c3f15e313"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/Ziggurat.tml"
+hash = "211f9ed3132eeec8a266ad68530fee3a02649cb74cd98bab1a182238949536dd"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/desert/littlepyramid.tml"
+hash = "02708b158ad04b86021ad17fbf600e174cfbc0b929a020c890cf2c27e6f9365a"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/forest/SpiralTree.tml"
+hash = "2aa58ce023a8e263ff44acc120b2719a205d6e42d6130e45548edc642904eee3"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/forest/TreeDungeon.tml"
+hash = "b334f8a013ef0b7c7c367f3bde226a5d7305ce8ef1047603d1043c3639fd29a1"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/forest/TreeHouse.tml"
+hash = "806864273ec120440aba5baf100695f622793c755f873748cd3d32eee4c8ccea"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/frozenocean/TP_FishingShack.tml"
+hash = "a048c17e91aa0f2489e4a18b03e0c854b05d83f1e245c97c98b60494bf01a33e"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/generic/Piston-CreeperRoom.tml"
+hash = "c90b831c886a072cc20d0f148d62386c4a3ac8070328bce0264565b1130fa0c0"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/generic/Piston-LavaTrap.tml"
+hash = "3f21a6eaba18143eac59dd5315053953a19ad7e3b1f918158469422316af83b8"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/generic/SmallWell.tml"
+hash = "24d5ab3fcc6afe1b4125975c0c46958f90a9906e9b810edd40c031963c58aced"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/jungle/PyramidStone.tml"
+hash = "691c16581d2f9ab315ee02a7fcce1e36af13db00529ee8c6f0165093eb4ab36f"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/obsolete.txt"
+hash = "0b2bc4bb08ea623dd4f5d88990e877242d569d747d6cf0ce39a6aae1defd1825"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/ocean/BaloonHigh.tml"
+hash = "abb42523ce850cb3532e1b8e04150b8a4db20d2fe358ef7a4c68a846be0c2c11"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/ocean/BaloonLow.tml"
+hash = "443b3fa2c95bdcd09e7d279ca395ff70c8fa6c58313680e751c167d3abb9cb80"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/ocean/BaloonVeryLow.tml"
+hash = "ea33ce0dcc6ef90025c8d7b60a5370c62ce682f4f096800553cd01a2d92918a9"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/Barn-ruined.tml"
+hash = "b0e81f59627ca82df1f70c76eb324a18436e7d02f7bbce5465e7e5041ba1e146"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/Barrow.tml"
+hash = "033d51f253e65dfde352cb65b477ab1031fa4906c1a1170a85245f8ca00d0dfb"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/Beacon.tml"
+hash = "69bd644e851225cb1b5a88e6cd16e41cd9e0f56d94047526fb88ef4fa6d215f0"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/BlockHenge.tml"
+hash = "3e87ae413e8404cbd0bff61866c9b804abaae8b1aff24f21d80009554dcbae99"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/CastleModifiedRuined.tml"
+hash = "55dbb6715639d16b942ca698be8f6f57be6cf8636c3acad07ac3eb83a372f74e"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/GateUnderGlass.tml"
+hash = "29a592b7c3987a2b72c539bdddd8252c4c6ac29b058664591176e13b0ddfc660"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/Gazebo.tml"
+hash = "baddfa94874cbed885a3305137a4613bdbcbb559ea0e592264c91941c42e6432"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/GraveyardHaunted.tml"
+hash = "f4f6db94aa4219d5a834a9d8599d53b34c9171fc7e418d517de21728567d71fb"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/GuardHouse.tml"
+hash = "43232304a8e4bfe518e48ca1524bb755f2bd22fb8bbd9f664e885790938f3bd0"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/Guardian.tml"
+hash = "2451ad7376892d3f4f1409261162178ea24d55232bb7e36621c93445f364a76e"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/GuardianFull.tml"
+hash = "fd631a41d4c5675b495de9bdb1e4599ca6fe84720e33332d1bd521859bf64f4e"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/HutIntact.tml"
+hash = "ad950344d6dac4c8017ded237955804bde0342cec08291c9e2ab8c62a7ea82a5"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/HutRuined.tml"
+hash = "90288050d003162d63a9131e2ba35f3d4b4064af8d96e62061ddc2bd4f3a70a8"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/LargeStoneHouse.tml"
+hash = "c772c8d1496167ecc7f734d3787833a8728de9fe3d65f3fd9fb5ebdc68e12f6d"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/LargeStoneHouseWBasement.tml"
+hash = "46882671f25d7d12341a693e5ffe2fdc6f03b2e6f630e9d305a54a5d026ca94d"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/LargeStoneTwoStoryHouse.tml"
+hash = "76c6d503187d1be05ade7d4f4ee9a6234baec538fa18ee6e5ac2050d528cef03"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/OldFoundation.tml"
+hash = "a9c782798d623d9a89d973b58af545c2c54c95a5e615690919fe363dd41203dc"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/PillarBase.tml"
+hash = "64eb0f8ca006cf7667a8d24631ff2827be7e55c1ddc415a78adebdddb71a9b78"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/Piston-BunkerUnderground.tml"
+hash = "aa84db46112ab65c145c9ca2337de00ab6625a38aa69cec984f8daba06003f0f"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/PortalShrine.tml"
+hash = "5981931d86d63242c0296c5d9bcf8ac550d780c7968f42fe933c725d14f7a7d3"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/RuinedTripleFountain.tml"
+hash = "0ccfb7eb1ce0066016bdce56448cbc607482bf6201e51f682fc338833da1fbe9"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/ShortTower.tml"
+hash = "5b1734ec2be6cd03e2b39cf801aa891af58b65afb90415b6632b4f387d2827d6"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/SmallWell.tml"
+hash = "70c0674ec1949916ac4e232965936b0b39f0549c9e007813fa44753182845b13"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/SpearStatue.tml"
+hash = "18bf3296b1c05cdb1ccb5496e1cf68e3df7913b0042b0975faf3ace5394e454c"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/Sphere.tml"
+hash = "dc88f788fdaa9f98477695dfa3c1a3339c91b0636ddc1a4a65b84b0d725b52ed"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/StoneHenge.tml"
+hash = "b952801019e32b669052a6ce85c84670a37a98ded57e1b14b26fd1369814d265"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/StoneHouse.tml"
+hash = "b9917ba430b8a0f7bcb555202dc8346ca609b454aa8b2f7d9fd5a6eade408949"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/StoneHouseM.tml"
+hash = "b9eb14965462c7bd6aafb916597dda361e309c006d7f848143bf904ec445a6f8"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/StoneHouseMruined.tml"
+hash = "2c09e7102af9445821698d73a140d0b2b042e167441532a24d52ea09a50fd7d6"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/StoneHouse_Intact.tml"
+hash = "269d3f2750e53caa5434d690bf086828bdc915742a3dd0232a57a9ea0e5b8660"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/StoneHouse_Ruined.tml"
+hash = "8cda59a241dbf987b46581fc5823fd0e86cafaa6f37697a0178df31f042c782f"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/TallTower.tml"
+hash = "8f0d2464b26f7c43aab8b9b829107763aa1533435a85a2e74609db94799ccc59"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/Tower-edit.tml"
+hash = "6dab5ee00b3b6d5b01c0fd457edc9f744e6d646620724c3dc58429e201ff2435"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/Tower-ruined-short.tml"
+hash = "11f9778ca96f922acb6e749569f8395509857a3ebba6649ba7659d0a15df0361"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/TowerEasy.tml"
+hash = "bfd93b9c660589b47d4232c92403d1f1e732bfdae5c74274f86b074fff455806"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/TowerMedium.tml"
+hash = "fddbf3f23a09787a7b64625da1f57a58eb44d02040b299b150a11d0525d736df"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/VanillaVillageChurch-p.tml"
+hash = "8191e40c64ab2dcc35b8e7048d8bf0fef7a980352c49dbe4df43b59edc15f6d8"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/VanillaVillageChurch-r.tml"
+hash = "05411bb278965780d5935be517f6f292caa34c9c6b136d263dcb25cc86596aa3"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/VanillaVillageCobble-p.tml"
+hash = "1b454fb901ca4460e98d58bffad4510cfbf2ffa7d385307e09d58ffe3d51b248"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/VanillaVillageCobbleHouse-r.tml"
+hash = "5fa950ffbd2a7aac2219fea574b70dd6e8427bdf0b63d21d14880931ff2be455"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/VanillaVillageEmpty-p.tml"
+hash = "0479fb3bf09f2758a89d54c530f5597dac380b5ffa876d3de7b7b53563a53a44"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/VanillaVillageEmptyHouse-r.tml"
+hash = "a055e0b8cf84284a2bd6e5773fd2335c7d4c08ecf0363405c867b1671aec1842"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/VanillaVillageForge-p.tml"
+hash = "42b0bc8665e4a3deb18aba1488a807df69c4c96234467e5efd002a7036846680"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/VanillaVillageForge-r.tml"
+hash = "f92d698fbf7e5c23dd3470379d36ddd4f91e0d4bdcf1c4b3cacb1a5c364bef50"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/VanillaVillageHut-p.tml"
+hash = "f657c240b0d594d9c844192a8c1de2cb0791620b1e9cdd6687ef24b56e0ec59b"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/VanillaVillageHut-r.tml"
+hash = "bd8fa4cf2722918933c5eaef8f487fb27e572e9b7813f39298d4d813db0dfa76"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/VanillaVillageLadder-p.tml"
+hash = "ffe2763e5e2316e79b3dcb9db8fc3fe392225493d62478780d41fb2a3e121a36"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/VanillaVillageLibrary-p.tml"
+hash = "1a9b5cf31af559ebc4587989954b942b68185dc631b7321d2ef1c4a82f039966"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/VanillaVillagePig-p.tml"
+hash = "6348fb73558ed2ca9742dba706f005b4f339b11f826a7a0d2c530d8ac2eb105b"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/VanillaVillageWell-p.tml"
+hash = "6f13092ac12023a5e36e811ba73e6b117c3a338e976b0a7b8d31fdecb951ca40"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/WatchtowerIntact.tml"
+hash = "4a2c22c09d896682208d26c5345dc5252be7fdd8dfa306464a74c866f913803b"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/WatchtowerRuined.tml"
+hash = "05798fa2c0d905875c0561e88fbbbfda24312e2ed40e75d97635cbbe758bc99c"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/WaterTrapRoom.tml"
+hash = "6ac83a5fe9419b708fc9059833e50c3bf888964a18e4075c89e99bcf14a8df6a"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/WoodHouse2_Intact.tml"
+hash = "5bf6d7bef037a28b415511691f15297c3eca85b07e229779d88f756b40be7f90"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/WoodHouse2_Ruined.tml"
+hash = "681b0a18cb6a5314829b85236d143c066c0a3b302be923fb208c81519af87591"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/WoodHouse3_Intact.tml"
+hash = "9f1ace5d0b4a66e329650a2d49c7747f65953c60faa7f55c04a7bcb3b344e1d4"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/WoodHouse3_Ruined.tml"
+hash = "c99ee4ada905a28a1b4048ccc2526a448a62f33ab49cc144b21ca6a2cefca47f"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/WoodHouse_Intact.tml"
+hash = "4d81172b069254d56bf89325f7e8ea8f64b78e0429f5c9cb20f7a14a53defb89"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/plains/WoodHouse_Ruined.tml"
+hash = "b472f8a45326fb40845da92a4ce8393b631ba3e40c0498084618287628bb70bc"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/river/BridgePilings-lg2.tml"
+hash = "d8b7a338f98ad002ecea1ac9b982039e5dad8ae29329aab9211e8cff93e9dc4e"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/river/BridgePilings-sm2.tml"
+hash = "6d5f99c206469487a5f555720f455e6ad224ab60d2f84279060c8a6a26cebffa"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/river/BridgePilings-small.tml"
+hash = "22eaad27340a18c0c5c07a4d2245c538d5d61ff040a9c97997401027f213a224"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/river/BridgePilings-small_river.tml"
+hash = "71c778205c019034e40bb7fa62d1f62b7338d011c7c22a5df4cb02ba0169994c"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/river/BridgePilings2_river.tml"
+hash = "f3bc6f0679dc7568273188e59c33c3bda6f824f1ddf1235749454fc684607ea6"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/sky/EnderStatueHigh.tml"
+hash = "d4acf9e4b5a475295a51c4b89714101681d3473bcce66ff83d379fcaeb7de91a"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/sky/EnderStatueLow.tml"
+hash = "ef162d1e2a74fe1e35d572ba5a80b0e755aa5c9b859652df81aa5b1e30320193"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/sky/EnderStatueMedHigh.tml"
+hash = "8c4bad9dfd0a1ee77e98673e5ee99f0a0834accff1d182a12d03958052fcf306"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/sky/EnderStatueMedLow.tml"
+hash = "ebc76745b161f0075a90c410474a29d76ea3385201cfb8cbc7971ecac0f38bc4"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/snow forest/FrozenBush.tml"
+hash = "282d4356d48cf815664c91f2e0cd80da253535bfaf299022d3d98a0936a84712"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/snow forest/FrozenTree.tml"
+hash = "f2dda7ac9b3bee532b8ea48df0f36265fb18943e8ea30982f63bfb1fc6db17cf"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/snow forest/Igloo.tml"
+hash = "5958ec710acf4e05a8e30009ae14c2ffae586ebc068dad022dad2912eade6c93"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/snow forest/SnowCastle.tml"
+hash = "ace77249a74264a7af15775f2687f31c07851696c08f32117660335bcc908317"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/snow forest/SnowCastleIce.tml"
+hash = "6379398fe17c17be327b4d29c0e8407fc9442df3887427ecdd5619ec162d13d6"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/snow forest/SnowCastleSpire.tml"
+hash = "4bd7c17f4bbe5b18a24dba1e1f0aa7615a21ee893f2a097c304fc75f42340b0a"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/snow forest/SnowFarm.tml"
+hash = "9195aa85265f1db55ee702d2fef0bc473c0e25b47cdd62bf6d2d362c3fe48bde"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/snow forest/SnowHenge.tml"
+hash = "f52df121ec0ffa76a6ac483d0ba474a843499f67703af12bbedc381f215f4574"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/snow forest/SnowHouse1.tml"
+hash = "026fce9a276aac1f1dada80dda9b8c74c8dc8af9d4cbda18195720acb6308b71"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/snow forest/SnowHouse2.tml"
+hash = "163327ddbfb38869394bdfbf920beae4ed42d71b55aba696696f16df250cd96f"
+
+[[files]]
+file = "mods/resources/ruins/obsolete/snow forest/SnowHouse3.tml"
+hash = "896e76242c0736d42abaa5c85a224939b4668ab6b6f749736dd1ab4a4cdb26df"
+
+[[files]]
+file = "mods/resources/ruins/ocean/SunkenShip-v2.tml"
+hash = "05c4efa7e586607562cd8f38631bec7fb7a08a3b9863c89353cc91026af5f460"
+
+[[files]]
+file = "mods/resources/ruins/ocean/SunkenShip-v3.tml"
+hash = "075271bdb724f67722d609d7c42d26d2f84c138df42a48132382b34b74d186df"
+
+[[files]]
+file = "mods/resources/ruins/ocean/shipwreck.tml"
+hash = "083782fafb542e3b6dbd4b16f7880503405baaff700c14b15574b2ea4971949c"
+
+[[files]]
+file = "mods/resources/ruins/optional/generic/CastleOcean.tml"
+hash = "887656579f2b89dcc3815e81ccdf0edc1e3432d3a1beeab878824b3026b095c7"
+
+[[files]]
+file = "mods/resources/ruins/optional/generic/SkyCastle.tml"
+hash = "5d7b4852ea90761b8ec91814ec0167c64c7e177cf175e5fbe865673046412f79"
+
+[[files]]
+file = "mods/resources/ruins/optional/generic/UnderwaterBase.tml"
+hash = "a71642bf2e8919b9b6e37d0026d7145020a5588bfeea395233bbe7cb59e21741"
+
+[[files]]
+file = "mods/resources/ruins/optional/nether/DoomHouse.tml"
+hash = "cdb9963763281e7a34f47874fb504a3db7a44b03f27576614222d6ec814b9175"
+
+[[files]]
+file = "mods/resources/ruins/optional/nether/DoomTower.tml"
+hash = "b5c317761746f0c5d26cb5b693ae3e53ac6639ab3d46663432549c791b31b5dd"
+
+[[files]]
+file = "mods/resources/ruins/optional/nether/LargeNetherHouse.tml"
+hash = "2d48df1a604fe42210cd5eb60e46b6b7325dfe5c992e3840f4a5f78069325f3f"
+
+[[files]]
+file = "mods/resources/ruins/optional/nether/NetherShrine.tml"
+hash = "0ef86fc4402577356bdc26eb7499053f8464c38b58e1ea70b3f0246c9e0da3e1"
+
+[[files]]
+file = "mods/resources/ruins/optional/nether/Tower-nether.tml"
+hash = "74c7786363f2e0710bda5cfc7004d7a30df30718aef629efc80e1184610199f1"
+
+[[files]]
+file = "mods/resources/ruins/optional/optional.txt"
+hash = "315779e0c62293546c5dcd22acf91a942977372b674870b41f26231972f8ee15"
+
+[[files]]
+file = "mods/resources/ruins/rotation_mappings.txt"
+hash = "21ef20ac631872da4a3a7c8fed0e15901effd804ed9269594529c8099be4ad2a"
+
+[[files]]
+file = "mods/resources/ruins/templateparser/143test.tml"
+hash = "339b930f2831d33eb0be4ae09ae50dff65f63393c32b2d24d1030b31158cedd6"
+
+[[files]]
+file = "mods/resources/ruins/templateparser/adjtest.tml"
+hash = "540b8a89e16bfd580c71da78568567b7c077b6270354dcd254d3cff0f66742b6"
+
+[[files]]
+file = "mods/resources/ruins/templateparser/cmdtest.tml"
+hash = "b44241ca242e5d4747b32a2f9606120d516a8cdc90c5ccc628569436dc6dda29"
+
+[[files]]
+file = "mods/resources/ruins/templateparser/tester.tml"
+hash = "55e9f5fcc149523142e3c7d6beda9e006310998e3370258b53299ff1377ae4b8"
+
+[[files]]
+file = "mods/roguelike-dungeons.pw.toml"
+hash = "b6b2e99e15b01100e3c38edaee6c4f8032d9db3a00e4c1776832b17e749c7adb"
+metafile = true
+
+[[files]]
+file = "mods/serverutilities.pw.toml"
+hash = "bae9c3c2de573feae444607d6cf081bfea883bb66797b53b987378691fee6321"
+metafile = true
+
+[[files]]
+file = "mods/special-mobs.pw.toml"
+hash = "ad4c6d09768ed76bdeee140883f24f9e450053260e9328b45f13b341966cce69"
+metafile = true
+
+[[files]]
+file = "mods/storage-drawers.pw.toml"
+hash = "97aa059a2c747bc77d77f464e54382b7a782eaa5aee7edf3d036f3df459de4fd"
 metafile = true
 
 [[files]]
@@ -212,6 +1122,26 @@ metafile = true
 [[files]]
 file = "mods/unimixins.pw.toml"
 hash = "1609ec425155f59a639b7224e96eefa3f0df2cfe63fe06903110397e0717a03f"
+metafile = true
+
+[[files]]
+file = "mods/veinminer.pw.toml"
+hash = "693902f20021192671f635f8462e44d1d3e2ca50ac7a92b9a2f01fc03fa704ba"
+metafile = true
+
+[[files]]
+file = "mods/waila-harvestability.pw.toml"
+hash = "59c3330e22adcd88014a3e3dd4194f9c13f35266e7418e63529e32b10b01a64a"
+metafile = true
+
+[[files]]
+file = "mods/waila.pw.toml"
+hash = "5da9b042eaa8cad9f15f05f54361f043334aa3ea32985cc92ec49d7bdfe60234"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "7b75ca8f2944fbe94b8d064841b128ebc5e1343537a301ee57fc23456432ce9f"
 metafile = true
 
 [[files]]

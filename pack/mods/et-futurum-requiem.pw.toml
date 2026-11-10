@@ -1,0 +1,8 @@
+name = "Et Futurum Requiem"
+filename = "etfuturum-2.6.2.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Roadhog360/Et-Futurum-Requiem/releases/download/2.6.2/etfuturum-2.6.2.jar"
+hash-format = "sha256"
+hash = "d0442ccfb72e9d9592654be0ee1e9d7b736ae35ae4bf6a349582dc9b19f58b00"
