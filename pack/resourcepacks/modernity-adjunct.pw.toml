@@ -1,0 +1,13 @@
+name = "Modernity Adjunct"
+filename = "ModernityAdjunct-f1-1.7.1.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "e31296c8346f558ef2a0b858bd97ae9ab46501f6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8733669
+project-id = 1088911
