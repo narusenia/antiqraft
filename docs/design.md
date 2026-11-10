@@ -40,7 +40,9 @@ Minecraft 1.7.10 / Forge 10.13.4.1614 の Modpack。工業・魔術・冒険の 
   - Ironwood、Steeleaf、Knightmetal、Fiery を GT4 の素材として fork で登録する。必須にはせず、性能のいい選択肢として扱う
   - 道具・防具は GT 化する。ボスのドロップとポータルはそのまま
   - Uncrafting Table は無効化する
-- 戦闘：Infernal Mobs、Special Mobs。Infernal Mobs の強すぎるドロップは外す
+- 戦闘：Infernal Mobs、Special Mobs。Infernal Mobs のドロップは初期設定でバニラの道具・防具だけなので、そのまま使う
+- 構造物の量：Roguelike Dungeons は `spawnFrequency=14`（初期値 10。大きいほど間隔が広がる）、Battle Towers は最小距離 320
+- Waystones（1.7.10 版）には自然生成の設定がない。構造物の近くに置くなら、Ruins のテンプレートに組み込むなどの別手段が要る
 - 食事：Pam's HarvestCraft を入れる。Spice of Life は入れない
 
 ## バックポート
@@ -62,7 +64,7 @@ Et Futurum Requiem。
 NotEnoughItems（GTNH 版）、NEI Integration、Waila + Waila Harvestability、JourneyMap、Inventory Tweaks、Mouse Tweaks、Iron Chests（GT 化）、Storage Drawers、Adventure Backpack、Chisel 2、Carpenter's Blocks、Gravestone 系、ServerUtilities、Hodgepodge、ArchaicFix、Angelica、InputFix（日本語入力）、Damage Indicators。
 
 - VeinMiner：木と石だけ。鉱石は対象外
-- Waystones：構造物の近くにも生成（少なめ）
+- Waystones：プレイヤーが作って置く（自然生成の設定はない）
 
 ## 見た目
 
