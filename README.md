@@ -53,4 +53,5 @@ Mod の追加は `packwiz curseforge add` か `packwiz url add`。GTNH が保守
 ## ライセンス
 
 - GT4 fork は GPLv3（上流: [Nukepowered/GregTech4](https://github.com/Nukepowered/GregTech4)）
+- Ruins（AtomicStryker）は、非営利の Modpack への同梱が作者のライセンスで認められている（[license atomicstryker.txt](https://github.com/AtomicStryker/atomicstrykers-minecraft-mods/blob/master/license%20atomicstryker.txt)）。このパックで収益を得ないこと
 - `pack/mods/` に直接置いている jar（GT4、Ruins）以外の Mod は、配布元から各自の環境にダウンロードされる
